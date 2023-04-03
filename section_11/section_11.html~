@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="text/css" rel="stylesheet" href="section_11.css">
+        <title>Section 11 -- The Grid With Rounded Corners</title>
+</head>
+<body>
+  <div class="seccion">
+    <div class="uno">
+        <div class="titulo">
+          <img  src="media/icon2.png" alt="icono-chico" title="icono-chico"/>
+          <h1 class="">Titulo grande<br>Primera Celda<br>Zapallos con Muzzarela</h1>
+        </div>
+        <div class="sub-flex">
+            <a class="cta" href="#">Acción</a>
+            <img class="img1" src="media/img1_t.png" alt="Imagen Grande Primera Celda" title="Imagen Grande Primera Celda"/>
+        </div>
+    </div>
+    <div class="dos">
+        <img src="media/img2_t2.png" alt="Imagen Grande Segunda Celda" title="Imagen Grande Segunda Celda"/>
+        <div class="celda2-bloque2">
+          <h2 class="titulo-chico">Segunda Celda</h2>
+          <h3 class="sub-titulo">El Zuchinni cortado en rodajas es la vista del plato</h3>
+        </div>
+        
+    </div>
+    <div class="tres">
+      <div class="celda3-bloque1">
+        <h2 class="titulo-chico">Tercera Celda</h2>
+        <h3 class="sub-titulo">La Muzzarella cortada en fetas gordas es la base</h3>
+      </div>
+      <img src="media/img3_t2.png" alt="Imagen Grande Tercera Celda" title="Imagen Grande Tercera Celda"/>
+    </div>
+  </div>
+</body>
+</html>

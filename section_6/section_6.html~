@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Seccion 6 - bullets con clase </title>
+    <script type="text/javascript" charset="utf-8" src="./style6.js" defer></script>
+  </head>
+  
+  <body>
+    <div class="contenedor">
+      <h1 class="titulo">Presentación paso por paso</h1>
+    </div>
+    <div class="contenedor presentacion">
+      <div class="display">
+        <img id="fotosPasos" src="media/paso1.png" title="Display de pasos" alt="Display de pasos"/>
+<!--        Podría poner otra imagen superpuesta a esta que es la pantalla del un supuesto celular?-->
+        
+      </div>
+      <div class="pasos">
+        <ul id="listaDesordenada" class="ulclass">
+          <li class="paso" id='paso1'">
+            <h3 class="oscuro">Paso Uno</h3>
+            <p class="li-parrafo oscuro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
+          </li>
+          <li class="paso" id='paso2'>
+            <h3 class="grayed">Paso Dos</h3>
+            <p class="li-parrafo grayed">Lorem ipsum dolor sit amet, consectetur </p>
+          </li>
+          <li class="paso" id='paso3'>
+            <h3 class="grayed">Paso Tres</h3>
+            <p class="li-parrafo grayed">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+          </li>
+          <li class="paso" id='paso4'>
+            <h3 class="grayed">Paso Cuatro</h3>
+            <p class="li-parrafo grayed">Lorem ipsum dolor sit amet</p>
+          </li>
+        </ul>
+      </div>
+    </dif>
+  </body>
+</html>

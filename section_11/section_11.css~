@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: verdana, sans-serif;
+  color: #111;
+}
+
+.seccion {
+/*border: 1px solid red;*/
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+
+}
+
+.uno, .dos, .tres{
+/*border: 1px solid purple;*/
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 30px;
+}
+
+
+/*PRIMER RECUADRO*/
+.uno {
+  grid-column: 1 / span 2;
+  
+  background-color: Orange;
+  
+}
+.titulo img{
+  position: inline-block;
+  
+}
+.titulo h1{
+  line-height: 1.35;
+  padding-top: 15px;
+}
+.titulo{
+/*border: 1px solid blue;*/
+  width: 60%;
+  color: #fafad2;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 40px 0 60px 40px;
+  overflow: visible;
+}
+
+
+
+.sub-flex{
+/*border: 1px solid red;*/
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+
+}
+
+.sub-flex .img1{
+/*border: 1px solid Aquamarine;*/
+/*  left: 100px;*/
+/*  bottom: -100px;*/
+  width: 700px;
+  margin-right: -300px;
+/*  margin-bottom: -40px;  */
+}
+
+.sub-flex .cta {
+  align-self: flex-end;
+  text-decoration: none;
+  margin: 0 0 50px 40px;
+  padding: 12px 25px; 
+  background-color: #fafad2;
+  color: #555;
+  border-radius: 20px;
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/*SEGUNDO RECUADRO*/
+.dos{
+  justify-content: flex-start;
+  background-color: #eeeeec;/*#d3d7cf;*/
+}
+
+.dos img{
+  position: relative;
+  width: 700px;
+  overflow: hidden;
+  align-self: flex-end;
+  margin-right: -240px;
+}
+
+.celda2-bloque2 h2{
+  color: #111;
+  font-size: 1.7em;
+  margin: 40px 0 10px 20px;
+  width: 50%;
+  font-weight: 700;
+}
+
+.celda2-bloque2 h3{
+  color: #555;
+  font-size: 1.8em;
+  width: 75%;
+  font-weight: 600;
+  margin: 5px 0 10px 20px;
+}
+
+/*TERCER RECUADRO*/
+.tres{
+  background-color: #eeeeec;
+}
+
+.tres img{
+  width: 600px;
+  overflow: hidden;
+  margin-left: -50px;
+  margin-bottom: 50px;
+}
+
+.celda3-bloque1 h2{
+  color: #111;
+  font-size: 1.7em;
+  margin: 60px 20px 20px 20px;
+  width: 50%;
+  font-weight: 700;
+}
+
+.celda3-bloque1 h3{
+  color: #555;
+  font-size: 1.8em;
+  width: 75%;
+  font-weight: 600;
+  margin-left: 20px;
+}
+
+

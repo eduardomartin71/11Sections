@@ -1,0 +1,87 @@
++{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  font-family: verdada, sans-serif;
+  color: #111;
+}
+
+.hero{
+  position: relative;
+  margin: 20px 30px 0 30px;
+  padding: 10px;
+/*  background-color: #f9f9f9;*/
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero::before{
+  content: '';
+/*  display: block;*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity:0.8;
+  background-image: url("media/fondo2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.title{
+  color: #111;
+  margin: 30px 30px 0 0;
+  padding: 20px;
+  width: 400px;
+/*  position: relative;*/
+/*  background-color: #fff;*/
+/*  background-image: -webkit-linear-gradient(45deg,#444,#eee);*/
+/*  background-size: 100%;*/
+/*  -webkit-background-clip:text;*/
+/*  -webkit-text-fill-color: transparent;*/
+}
+
+.title2{
+  color: #0a2a44;
+  width: 50%;
+}
+
+.uno p a{
+  text-decoration: none;
+  color: #204a87;
+/*  color: #edd400;*/
+  text-transform: Capitalize;
+  
+}
+.uno p{
+  width: 50%;
+  color: #0a2a44;
+  color: #2e3436;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+/*BOTONES A LAS SECCIONES*/
+.links ul{
+  line-height: 3;
+  list-style-type: none;
+}
+.links ul li a{
+  text-decoration: none;
+  color: #111;
+  background-color: #7aace1;
+  background-color: #33e6f0;
+  border-radius: 10px;
+  margin: 15px 20px;
+  padding: 5px 10px;
+  
+}
+
+

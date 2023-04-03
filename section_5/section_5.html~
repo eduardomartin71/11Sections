@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<!--<html lang="es">-->
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="./style5.css">
+    <title>Section5 - product presntation and call to action</title>
+  </head>
+  <body>
+    <section class="container">
+      <div class="titulo">
+        <h1 class="importante">Titulo <span>Importante</span> resaltado </h1>
+        <p class="parrafo">Lorem ipsum dolor sit amet,<br>consectetur adipiscing elit, sed do eiusmod tempor.</p>
+      </div>
+      <div class="escaparate">
+        <div class="columna">
+          <div class="tarjeta">
+            <img src="media/icon1.png" alt="icono1" title="icono1"/>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="tarjeta">
+            <img src="media/icon2.png" alt="icono2" title="icono2"/>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="columna">
+          <div class="tarjeta producto">
+            <img src="media/producto.png" alt="Producto" title="Producto"/>
+          </div>
+          <div class="tarjeta">
+            <img src="media/icon3.png" alt="icono3" title="icono3"/>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="columna">
+          <div class="tarjeta">
+            <img src="media/icon4.png" alt="icono4" title="icono4"/>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+          <div class="tarjeta">
+            <img src="media/icon5.png" alt="icono5" title="icono5"/>
+            <p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="cta">
+        <a href="#">Buy Now!!</a>
+      </div>
+    </section>
+  
+  </body>
+</html>

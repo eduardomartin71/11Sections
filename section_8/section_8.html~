@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="section_8.css"/>
+    <script type="text/javascript" charset="utf-8" src="section_8.js" defer></script>
+    <title>Section 8 - dark background (H-V)*N</title>
+    
+  </head>
+  
+  <body>
+    <!--    Fondo oscuro, dos columnas disposición horizontal-vertical repetida-->
+    <section class="section background">
+      <div class="columna1">
+        <div class="celda1">
+          <h1 class="titulo">Título importante H1</h1>
+          <p>Parrafo del título con una llamada a la acción debajo. Esta disposición conjuga elementos repetidos
+          de bloques horizontales de dos columnas y verticales de dos filas, repetidos por toda la sección. H-V
+          </p>
+          <a class="cta" href="#">Llamada a la acción</a>
+        </div>
+        <div class="celda2 fila">
+          <div class="tarjeta columna">
+            <img src="media/icon1_g.png" alt="Icono 1" title="Icono 1"/>
+            <h3 class="titulo-h3">Título h3 en tarjeta</h3>
+            <p>Esto es una tarjeta, en formato vertical, de la primera celda de una fila. También respetando el formato H-V</p>
+            <a  href="#">Llamada a acción secundaria <span>&rarr;</span></a>
+          </div>
+          <div class="tarjeta columna">
+            <div class="fondo-imagen"><img src="media/icon2_g.png" alt="Icono 2" title="Icono 2"/></div>
+            <h3 class="titulo-h3">Título h3 en tarjeta</h3>
+            <p>Esto es una tarjeta, en formato vertical, de la primera celda de una fila. También respetando el formato H-V</p>
+            <a href="#">Llamada a acción secundaria <span>&rarr;</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="columna2">
+        <img class="img-codigo" src="media/imagen_codigo_perspectiva.png" alt="Imagen Grande" title="Imagen grande"/>
+      </div>
+    </section>
+  </body>
+</html>

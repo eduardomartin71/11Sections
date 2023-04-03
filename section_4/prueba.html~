@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="./style4.css">
+    <title>Section 4 -slide it babe-</title>
+    <script type="text/javascript" charset="utf-8" src="./style4.js" defer>
+        
+    </script>
+  </head>
+  <body>
+    <section class="container">
+      <div class="primero">
+        <h2> Titulo H2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
+        <a class="btn">C T A</a>
+      </div>
+      <div class="segundo">
+                <button class="carrusel-btn prev" data-carrusel-btn="prev"><</button>
+                <button class="carrusel-btn next" data-carrusel-btn="next">></button>
+                
+                
+                <div class="carrusel" data-carrusel>
+                  
+                  <div class="tarjeta" data-tarjeta>
+                    <div class="item1-tarjeta">
+                      <h3>Titulo H3</h3>
+                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="item2-tarjeta">
+                      <img src="media/tarjeta1.png" alt="descripcion de la tarjeta 1" title="tarjeta1"/>
+                    </div> 
+                  </div>
+                  <div class="tarjeta">
+                    <div class="item1-tarjeta">
+                      <h3>Titulo H3</h3>
+                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="item2-tarjeta">
+                      <img src="media/tarjeta2.png" alt="descripcion de la tarjeta 1" title="tarjeta1"/>
+                    </div> 
+                  </div>
+                  <div class="tarjeta">
+                    <div class="item1-tarjeta">
+                      <h3>Titulo H3</h3>
+                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="item2-tarjeta">
+                      <img src="media/tarjeta3.png" alt="descripcion de la tarjeta 1" title="tarjeta1"/>
+                    </div> 
+                  </div>
+                  <div class="tarjeta">
+                    <div class="item1-tarjeta">
+                      <h3>Titulo H3</h3>
+                      <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="item2-tarjeta">
+                      <img src="media/tarjeta4.png" alt="descripcion de la tarjeta 1" title="tarjeta1"/>
+                    </div> 
+                  </div>
+                </div>
+      </div>
+    </section>
+  </body>
+</html>

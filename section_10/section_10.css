@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: verdana, sans-serif;
+  color: #111;
+}
+
+.seccion{
+  margin: 60px 15% 60px 15%;
+}
+
+.titulo{
+  margin-bottom: 60px;
+  font-size: 1.1em;
+}
+
+.grid-main{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+/*  grid-template-rows: 1fr 1fr 1fr;*/
+/*  grid-gap: 5px;*/
+}
+
+.grid-main .tarjeta{
+/*border: 1px solid tomato;*/
+  align-self: center;
+/*  justify-self: left;*/
+/*  margin:0;*/
+  font-size: 1em;
+  margin-left: 25px;
+}
+.grid-main img{
+/*border: 1px solid lightBlue;*/
+/*  display: block;*/
+/*  margin: auto;*/
+  width: 220px;
+/*  height: auto;*/
+  border-radius: 30px;
+}
+
+.grid-main .img1{
+/*border: 1px solid blue;*/
+  display: hide;
+  grid-column-start: 2;
+  margin-left: 25px;
+}
+.grid-main .img3{
+/*border: 1px solid blue;*/
+  grid-column-start: 2;
+  margin-left: 25px;
+}
+
+.grid-main .cta{
+  display: inline-block;
+  text-decoration: none;
+  color: #2f4f4f;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.grid-main .tarjeta h3{
+  margin-bottom: 10px;
+}
+.grid-main .texto-sale{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  
+/*        overflow: hidden;*/
+}
+.grid-main .expande{
+
+  grid-column: 2 / span 2;
+
+}

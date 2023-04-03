@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0"/>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title> 11 Sections -- Web Design patters</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="uno">
+        <h1 class="title">11 Sections<br>Web Design Patterns</h1>
+<!--        <img class="fondo" src="media/fondo.jpg"/ alt="fondo de la pantalla" title="Fondo de la pantalla principal">-->
+        
+        <h2 class="title2">Exercise on how I could design 11 different UI sections for websites</h2>
+        <p class="">In this Exercise I try to replicate, just for normal screens, The <a class="enlace" href="https://www.youtube.com/watch?v=Zddof7W_xnY" target="_blank">11 sections video</a> on YouTube by Payton Clark Smith.<br>Each link will bring you to a new page from where you may come back to this one. <br> (TODO -- work on all the media queries)</p>
+        
+      </div>
+      <div class="links">
+          <ul class="">
+            <li><a href="section_1/section_1.html">Section 1</a></li>
+            <li><a href="section_2/section_2.html">Section 2</a></li>
+            <li><a href="section_2/section_2.html">Section 3</a></li>
+            <li><a href="section_2/section_2.html">Section 4</a></li> 
+            <li><a href="section_2/section_2.html">Section 5</a></li> 
+            <li><a href="section_2/section_2.html">Section 6</a></li>
+            <li><a href="section_2/section_2.html">Section 7</a></li>
+            <li><a href="section_2/section_2.html">Section 8</a></li>
+            <li><a href="section_2/section_2.html">Section 9</a></li>
+            <li><a href="section_10/section_1.html">Section 10</a></li>
+            <li><a href="section_11/section_11.html">Section 11</a></li>
+          </ul>
+      </div>
+    </div>
+  </body>
+</html>

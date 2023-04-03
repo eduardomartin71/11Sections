@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0" >
+    <link rel="stylesheet" href="section_7.css"/>
+    <script type="text/javascript" src="seciton7.js" charset="utf-8" defer></script>
+    <title>Sección 7 -- 2 columnas con social</title>
+    
+  </head>
+  
+  <body>
+    <section class="seccion"><!-- esto es un flex -->
+      <!--    seccion de iconos, columna 1 es un grid-->
+      <div class="columna1">
+        <div class="tarjeta">
+          <img src="media/tarjeta1.png" alt="tarjeta uno" title="tarjeta 1" />
+          <h3 class="titulito-h3">Titulo de Tarjeta 1</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscin</p>
+        </div>
+        <div class="tarjeta">
+          <img src="media/tarjeta2.png" alt="tarjeta dos" title="tarjeta 2" />
+          <h3 class="titulito-h3">Titulo de Tarjeta 2</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscin</p>
+        </div>
+        <div class="tarjeta">
+          <img src="media/tarjeta3.png" alt="tarjeta tres" title="tarjeta 3" />
+          <h3 class="titulito-h3">Titulo de Tarjeta 3</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscin</p>
+        </div>
+        <div class="tarjeta">
+          <img src="media/tarjeta4.png" alt="tarjeta cuatro" title="tarjeta 4" />
+          <h3 class="titulito-h3">Titulo de Tarjeta 4</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscin</p>
+        </div>
+      </div>
+      <!--  Seccion de llamada a la acción con social icons es un flex-->
+      <div class="columna2">
+        <h1 class="titulo-h1">Título Importante que va a la derecha de las tarjetas</h1>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+        <a class="cta" href="#">CallTA</a>
+        <div class="social">
+          <p class="social-p">Medios Sociales</p>
+          <a class="social-link" href="#"><img src="media/social1.png" alt="social uno" title="social uno" /><a/>
+          <a class="social-link" href="#"><img src="media/social2.png" alt="social dos" title="social dos" /><a/>
+          <a class="social-link" href="#"><img src="media/social3.png" alt="social tres" title="social tres" /><a/>
+          <a class="social-link" href="#"><img src="media/social4.png" alt="social tres" title="social tres" /><a/>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

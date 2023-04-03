@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link type="" rel="" href="">
+        <title>Section 11 -- The Grid With Rounded Corners</title>
+</head>
+<body>
+  <section class="seccion">
+    <div class="uno">
+        <img src="media/icon1.png" alt="icono-chico" title="icono-chico"/>
+        <h1 class="titulo">Titulo muy grande.<br>Primera Celda<br>Zapallos con Muzzarela.</h1>
+        <div class="sub-flex">
+            <a class="cta" href="#">Acción</a>
+            <img src="media/img1_t.png" alt="Imagen Grande Primera Celda" title="Imagen Grande Primera Celda"/>
+        </div>
+    </div>
+    <div class="dos">
+        <img src="media/img2_t.png" alt="Imagen Grande Segunda Celda" title="Imagen Grande Segunda Celda"/>
+        <h2 class="titulo-chico">Titulo Segunda Celda</h2>
+        <h3 class="sub-titulo">Subtítulo Segunda Celda</h3>
+    </div>
+    <div class="tres">
+        <h2 class="titulo-chico">Titulo Tercera Celda</h2>
+        <h3 class="sub-titulo">Subtítulo Tercera Celda</h3>
+        <img src="media/img3_t_t.png" alt="Imagen Grande Tercera Celda" title="Imagen Grande Tercera Celda"/>
+    </div>
+  </section>
+</body>
+</html>

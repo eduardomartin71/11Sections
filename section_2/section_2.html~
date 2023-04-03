@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style2.css">
+    <title>Style 2</title>
+  </head>
+  <body>
+    <section class="section2">
+      <div class="bloque">
+        <img src="./media/style2_1.jpg" alt="Imagen 1 estilo 2" title="Imagen de algo chulo numero 1">
+        <h1 class="titulo1">Titulo 1 H1 importante</h1>
+        <h2 class="subtitulo1">Subtitulo en h2 o h3</h2>
+        <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="bloque">
+        <img src="./media/style2_2.jpg" alt="Imagen 2 estilo 2" title="Imagen de algo chulo numero 1">
+        <h1 class="titulo1">Titulo 2 H1 importante</h1>
+        <h2 class="subtitulo1">Subtitulo en h2 o h3</h2>
+        <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+      <div class="bloque">
+        <img src="./media/style2_3.jpg" alt="Imagen 3 estilo 2" title="Imagen de algo chulo numero 1">
+        <h1 class="titulo1">Titulo 3 H1 importante</h1>
+        <h2 class="subtitulo1">Subtitulo en h2 o h3</h2>
+        <p class="parrafo1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+      </div>
+    </section>
+  </body>
+  
+</html>

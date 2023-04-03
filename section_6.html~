@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, scale=1.0">
+    <link rel="stylesheet" href="style6.css">
+    <title>Seccion 6 - bullets con clase </title>
+    <script type="text/javascript" charset="utf-8" src="./style6.js" defer></script>
+  </head>
+  
+  <body>
+    <div class="contenedor">
+      <h1 class="titulo">Presentación paso por paso</h1>
+    </div>
+    <div class="contenedor presentacion">
+      <div class="display">
+        <img src="media/marco.png" alt="Imagen del marco del escaparate" title="Imagen del marco del escaparate"/>
+<!--        Podría poner otra imagen superpuesta a esta que es la pantalla del un supuesto celular?-->
+        
+      </div>
+      <div class="pasos">
+        <ul>
+          <li class="paso">
+            <h3>Paso Uno</h3>
+            <p class="li-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </li>
+          <li class="paso">
+            <h3>Paso Dos</h3>
+            <p class="li-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </li>
+          <li class="paso">
+            <h3>Paso Tres</h3>
+            <p class="li-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </li>
+          <li class="paso">
+            <h3>Paso Cuatro</h3>
+            <p class="li-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+          </li>
+        </ul>
+      </div>
+    </dif>
+  </body>
+</html>
